@@ -1,0 +1,136 @@
+html {
+  font-size: 15px; /* px means 'pixels': the base font size is now 10 pixels high  */
+  font-family: "Crete Round", serif;/* this should be the rest of the output you got from Google fonts */
+}
+h1, h2 {
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  padding: 20px 0;
+  color: rgb(1, 69, 153);
+}
+
+h3{
+  margin: 0 20px;
+  padding: 0;
+  color: #FFFFFF;
+  font-size: 40px;
+}
+
+h4{
+  margin: 0 20px;
+  text-align: center;
+  padding: 0;
+  color: #FFFFFF;
+  font-size: 40px;
+}
+
+
+p, li {
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+
+body {
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  padding: 0px;
+  font-family: "Crete Round", serif;
+
+
+}
+header {
+    background: rgb(1, 69, 153);
+    color: #FFFFFF;
+    padding-top: 20px;
+    min-height: 60px;
+    letter-spacing: 2px;
+}
+header a {
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+ header li {
+     float: left;
+     display: inline;
+     padding: 0 20px 0 20px;
+ }
+ header nav {
+     float: right;
+     margin-top: 10px;
+ }
+
+ img {
+   display: block;
+   border: 3px solid rgb(1, 69, 153);
+   border-radius: 10%;
+   margin: 3rem 1.5rem;
+   width: 400px;
+   height: 400px;
+ }
+
+ footer {
+     background: rgb(1, 69, 153);
+     color: #FFFFFF;
+     padding-top: 20px;
+     min-height: 60px;
+     letter-spacing: 2px;
+ }
+
+ footer a {
+     color: #FFFFFF;
+     text-decoration: none;
+ }
+
+ .myName{
+   float: left;
+   margin-top: 10px;
+ }
+
+
+.about{
+  margin: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "txt_box_1 img_box_1"
+}
+
+.about .img_box_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .txt_box_1 {
+  border-radius: 10px;
+  padding: 32px;
+}
+
+
+
+.hobbies {
+  margin: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas:
+  "txt_box_2 img_box_2"
+}
+
+.hobbies .img_box_2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hobbies .txt_box_2 {
+  border-radius: 10px;
+  padding: 32px;
+}
